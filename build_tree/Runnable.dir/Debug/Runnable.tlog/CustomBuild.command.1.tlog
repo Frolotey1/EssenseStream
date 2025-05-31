@@ -1,0 +1,10 @@
+^C:\USERS\FROLO\SOURCE\REPOS\ESSENSESTREAM\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/frolo/source/repos/EssenseStream -BC:/Users/frolo/build_tree --check-stamp-file C:/Users/frolo/build_tree/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
