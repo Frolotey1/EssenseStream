@@ -5,7 +5,7 @@ EssenseStream is the C++ library which accepts work with essenses in the safe cl
 This library was created because it accepts to realize different essenses such as: variables, types, string paths and etc. more safety and solid.
 
 # Dependencies
-This library has five dependencies which will need to include in your project for supporting correct working of the project's code.
+This library has five dependencies which will need to include in your project for supporting correct working of the project's code: iostream sstream, string, filesystem, fstream.
 
 # Header File Of The Library
 The library's code is located in the header file .h in the EssenseStream.h
