@@ -1,0 +1,10 @@
+^C:\USERS\FROLO\SOURCE\REPOS\ESSENSESTREAM\CMAKEFILES\C30041E36C171CE4E95133AC45F375AD\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/frolo/source/repos/EssenseStream -BC:/Users/frolo/source/repos/EssenseStream --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/frolo/source/repos/EssenseStream/EssenseStream.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
