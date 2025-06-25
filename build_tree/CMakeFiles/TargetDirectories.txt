@@ -1,4 +1,0 @@
-C:/Users/frolo/build_tree/CMakeFiles/Runnable.dir
-C:/Users/frolo/build_tree/CMakeFiles/EssenseLibrary.dir
-C:/Users/frolo/build_tree/CMakeFiles/ALL_BUILD.dir
-C:/Users/frolo/build_tree/CMakeFiles/ZERO_CHECK.dir
