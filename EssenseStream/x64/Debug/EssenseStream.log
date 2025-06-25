@@ -1,5 +1,0 @@
-﻿  EssenseStream.cpp
-C:\Users\frolo\source\repos\EssenseStream\EssenseStream.cpp(280,43): warning C4553: "==": результат выражения не используется; вы хотели использовать "="?
-  Run.cpp
-  Создание кода...
-  EssenseStream.vcxproj -> C:\Users\frolo\source\repos\EssenseStream\x64\Debug\EssenseStream.exe
