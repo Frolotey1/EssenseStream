@@ -33,4 +33,4 @@
 *.idb
 
 # Log Files 
-* .tlog
+*.tlog
