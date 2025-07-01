@@ -31,3 +31,6 @@
 # Programm database
 *.pdb 
 *.idb
+
+# Log Files 
+* .tlog
